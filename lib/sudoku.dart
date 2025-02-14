@@ -51,6 +51,7 @@ class _SudokuState extends State<Sudoku> {
     }
     List<Square> list2 = _checkNumberIsCorrect(list);
     if (list2.isNotEmpty) {
+      //TODO
       //await _constructSquareList();
     } else {
       _squareList = list;
