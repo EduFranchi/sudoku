@@ -39,7 +39,7 @@ class _SudokuState extends State<Sudoku> {
                 mediumSquareColumn: yM,
                 row: x,
                 column: y,
-                fixValue: Random().nextInt(9) + 1,
+                //fixValue: Random().nextInt(9) + 1,
               ),
             );
           }
